@@ -7,7 +7,7 @@ export const HeroSection = () => {
       <h1>MyNotes - Galarza Matías, Trejo Franco</h1>
       <div className="hero-paragraph">
         <p>
-          &nbsp;&nbsp; Esta es una HOLA HOLA HOLApágina para buscar distintos
+          &nbsp;&nbsp; Esta es una página para buscar distintos
           tipos de cosas, como libros o música, donde podrás diseñar tu propia
           lista para no olvidar lo que más te gustó o llamó la atención.
         </p>
