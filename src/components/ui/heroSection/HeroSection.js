@@ -12,6 +12,7 @@ export const HeroSection = () => {
           lista para no olvidar lo que más te gustó o llamó la atención
           aaaaaaaaasasa
           sss
+          bbbbb
         </p>
       </div>
       <div className="hero-btns">
