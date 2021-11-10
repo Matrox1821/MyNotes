@@ -1,0 +1,32 @@
+.link-menu {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  transition: background 0.4s;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: var(--whitePure);
+}
+.link-menu:hover {
+  background-color: var(--blue);
+}
+.desactive {
+  display: none;
+}
+@media screen and (min-width: 400px) and (max-width: 960px) {
+  .link-menu {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    transition: background 0.4s;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: var(--whitePure);
+  }
+  .link-menu:hover {
+    background-color: var(--blue);
+    border-bottom: 4px solid var(--whitePure);
+  }
+}
