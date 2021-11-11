@@ -10,6 +10,7 @@ export const HeroSection = () => {
           &nbsp;&nbsp; Esta es una página para buscar distintos tipos de cosas,
           Hola HOLA HOLA HOLA como libros o música, donde podrás diseñar tu
           propia lista para no olvidar lo que más te gustó o llamó la atención
+          wtfff
         </p>
       </div>
       <div className="hero-btns">
