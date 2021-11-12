@@ -27,6 +27,5 @@
   }
   .link-menu:hover {
     background-color: var(--blue);
-    border-bottom: 4px solid var(--whitePure);
   }
 }

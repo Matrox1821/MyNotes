@@ -35,7 +35,6 @@
     color: var(--blue);
   }
   .dropdown.mobile {
-    position: absolute;
     display: block;
     flex-direction: column;
     top: -300px;
@@ -46,13 +45,13 @@
     padding: 1rem 2.5% 0;
   }
   .dropdown.mobile.active {
-    position: absolute;
     top: 95px;
     opacity: 1;
     transition: all 0.5s ease;
     background-color: var(--black);
     padding: 1rem 2.5% 0;
     overflow: hidden;
+    z-index: 10;
   }
   .desactive {
     display: none;
