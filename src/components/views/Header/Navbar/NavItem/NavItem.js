@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./NavItem.css";
+import React from "react";
 export const NavItem = (props) => {
   const [isMenuMobile, setIsMenuMobile] = useState(false);
   const [width, setWidth] = useState(window.innerWidth);

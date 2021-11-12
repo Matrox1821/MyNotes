@@ -2,6 +2,7 @@ import "./Libros.css";
 import { /* useState,  */ useEffect } from "react";
 import axios from "axios";
 import { Card } from "../../../ui/Card/Card";
+import React from "react";
 /* const URL =
   "https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key="; */
 export const Libros = () => {

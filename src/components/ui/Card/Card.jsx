@@ -1,4 +1,5 @@
 import "./Card.css";
+import React from "react";
 export const Card = ({ Title, Description }) => {
   return (
     <div className="card">

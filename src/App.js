@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Home } from "./components/views/pages/home";
 import { Libros } from "./components/views/pages/libros";
 import { Header } from "./components/views/Header/Header";
+import React from "react";
 
 export const App = () => {
   return (
