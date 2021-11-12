@@ -3,32 +3,25 @@
   background-color: var(--black);
   height: 80px;
   font-size: 1.2rem;
-  position: sticky;
-  z-index: 50;
   display: flex;
 }
 
 .logo {
-  height: 80px;
-  color: var(--whitePure);
   justify-self: start;
   margin: 0 20px;
-  cursor: pointer;
   text-decoration: none;
   font-size: 1.5rem;
   display: flex;
   align-items: center;
 }
-
 .img {
-  margin: 0.4rem;
+  margin: 5px 0.4rem 0;
 }
 
 .logo-span {
   text-decoration: none;
   color: var(--whitePure);
 }
-
 .menu-icon {
   display: none;
 }
@@ -76,13 +69,14 @@
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
+    position: fixed;
+    z-index: 0;
   }
   .menu-mobile.active {
     background: var(--darkBlue);
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
-    z-index: 1;
   }
 }
 @media screen and (max-width: 500px) {
