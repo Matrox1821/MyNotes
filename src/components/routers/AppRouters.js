@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { HomePage } from "../views/pages/home";
 import { LibrosPage } from "../views/pages/libros";
+import { NosotrosPage } from "../views/pages/nosotros";
+import { ForoPage } from "../views/pages/foro";
 import { IniciarSesionPage } from "../views/pages/iniciar-sesion";
 import { RegistroPage } from "../views/pages/registro";
 import { CuentaPage } from "../views/pages/cuenta";
@@ -16,6 +18,8 @@ export const AppRouters = () => {
         <Route exact path="/" component={HomePage} />
         <Route exact path="/inicio" component={HomePage} />
         <Route exact path="/libros" component={LibrosPage} />
+        <Route exact path="/nosotros" component={NosotrosPage} />
+        <Route exact path="/foro" component={ForoPage} />
         <Route exact path="/iniciar-sesion" component={IniciarSesionPage} />
         <Route exact path="/registro" component={RegistroPage} />
         <Route exact path="/cuenta" component={CuentaPage} />
