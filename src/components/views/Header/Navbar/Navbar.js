@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { IoMenuSharp, IoCloseSharp } from "react-icons/io5";
 import MyNotes from "./MyNotes.svg";
 import { Link } from "react-router-dom";

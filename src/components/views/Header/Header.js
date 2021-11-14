@@ -1,4 +1,4 @@
-import { Fragment, React } from "react";
+import React, { Fragment } from "react";
 import { Navbar } from "./Navbar";
 import { NavItemDropdown } from "./Navbar/NavItemDropdown";
 import { NavItem } from "./Navbar/NavItem";

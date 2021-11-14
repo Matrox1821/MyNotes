@@ -1,6 +1,6 @@
-import { React, Fragment } from "react";
+import { Fragment } from "react";
+import React from "react";
 import { AppRouters } from "./components/routers/AppRouters";
-
 export const App = () => {
   return (
     <Fragment>
@@ -8,5 +8,3 @@ export const App = () => {
     </Fragment>
   );
 };
-
-export default App;
