@@ -1,10 +1,10 @@
 import React, { Fragment } from "react";
-import { Navbar } from "./Navbar";
-import { NavItemDropdown } from "./Navbar/NavItemDropdown";
-import { NavItem } from "./Navbar/NavItem";
-import "./Header.css";
+import { Navbar } from "./navbar";
+import { NavItemDropdown } from "./navbar/nav-item-dropdown";
+import { NavItem } from "./navbar/nav-item";
+import "./Navegacion.css";
 
-export const Header = () => {
+export const Navegacion = () => {
   return (
     <Fragment>
       <Navbar>

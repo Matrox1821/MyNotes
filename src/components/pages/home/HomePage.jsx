@@ -1,4 +1,4 @@
-import { HeroSection } from "../../../ui/heroSection/HeroSection";
+import { HeroSection } from "../../ui/hero-section";
 import React, { Fragment } from "react";
 export const HomePage = () => {
   return (

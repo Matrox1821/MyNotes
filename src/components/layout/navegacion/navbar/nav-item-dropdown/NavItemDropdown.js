@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { IoChevronDownSharp } from "react-icons/io5";
-import { DropdownItem } from "./DropdownItem/DropdownItem";
+import { DropdownItem } from "./dropdown-item";
 import "./NabItemDropdown.css";
 export const NavItemDropdown = (props) => {
   const [open, setOpen] = useState(false);

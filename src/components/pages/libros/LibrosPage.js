@@ -1,7 +1,7 @@
 import "./Libros.css";
 import React, { /* useState,  */ useEffect } from "react";
 import axios from "axios";
-import { Card } from "../../../ui/Card/Card";
+import { Card } from "../../ui/Card";
 /* const URL =
   "https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key="; */
 export const LibrosPage = () => {
