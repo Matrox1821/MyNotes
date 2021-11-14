@@ -1,5 +1,6 @@
 import { HeroSection } from "../../../ui/heroSection/HeroSection";
-export const Home = () => {
+import React from "react";
+export const HomePage = () => {
   return (
     <>
       <HeroSection />

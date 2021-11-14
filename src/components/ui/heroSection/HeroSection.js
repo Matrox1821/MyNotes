@@ -1,6 +1,6 @@
 import { Button } from "../buttons/Button";
 import "./HeroSection.css";
-
+import React from "react";
 export const HeroSection = () => {
   return (
     <div className="hero-container">
