@@ -1,1 +1,1 @@
-export { Libros } from "./Libros.js";
+export { LibrosPage } from "./LibrosPage.js";

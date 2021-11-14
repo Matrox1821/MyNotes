@@ -1,9 +1,8 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { IoMenuSharp, IoCloseSharp } from "react-icons/io5";
 import MyNotes from "./MyNotes.svg";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import React from "react";
 export const Navbar = (props) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMenuMobile, setIsMenuMobile] = useState(false);
