@@ -56,7 +56,6 @@
   .nav-item.mobile {
     height: 50px;
     padding: 1em 20%;
-    background-color: var(--darkBlue);
   }
   .nav-links.mobile {
     display: block;

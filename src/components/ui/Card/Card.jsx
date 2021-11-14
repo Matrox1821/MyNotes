@@ -18,7 +18,7 @@ export const Card = ({
         <img className="image" src={book_image} alt={title} />
       </div>
       <div className="card-content" key={rank}>
-        <h1>{title}</h1>
+        <h1 className="card-title" >{title}</h1>
         <p>{description}</p>
         {/* <p>
           <span className="span-card">Autor:</span> {author}
