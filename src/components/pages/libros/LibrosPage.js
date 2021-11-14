@@ -1,7 +1,9 @@
 import "./Libros.css";
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import axios from "axios";
 import { Card } from "../../ui/Card";
+import { routes } from "../../routers/helpers/routes";
 /* const URL =
   "https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key="; */
 export const LibrosPage = () => {
@@ -20,24 +22,16 @@ export const LibrosPage = () => {
   return (
     <div className="content-cards">
       {books.map((book) => {
-        const {
-          age_group,
-          author,
-          book_image,
-          buy_links,
-          description,
-          price,
-          primary_isbn10,
-          publisher,
-          rank,
-          title,
-        } = book;
+        const { book_image, description, rank, title } = book;
         return (
-          <Card
-            title={title}
-            description={description}
-            book_image={book_image}
-          ></Card>
+          <Link className="libros" to={routes.libro(rank)}>
+            <Card
+              rank={rank}
+              title={title}
+              description={description}
+              book_image={book_image}
+            ></Card>
+          </Link>
         );
       })}
     </div>

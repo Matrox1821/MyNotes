@@ -27,7 +27,7 @@ export const NavItem = (props) => {
         className={
           isMenuMobile ? "nav-links center mobile" : "nav-links center"
         }
-        to={`/${props.link}`}
+        to={`${props.link}`}
       >
         {props.name}
       </Link>
