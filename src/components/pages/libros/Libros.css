@@ -11,3 +11,6 @@
   position: absolute;
   z-index: -2;
 }
+.libros {
+  text-decoration: none;
+}

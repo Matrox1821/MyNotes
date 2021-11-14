@@ -3,6 +3,7 @@ import { IoMenuSharp, IoCloseSharp } from "react-icons/io5";
 import MyNotes from "./MyNotes.svg";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import { routes } from "../../../routers/helpers/routes";
 export const Navbar = (props) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMenuMobile, setIsMenuMobile] = useState(false);
@@ -30,10 +31,14 @@ export const Navbar = (props) => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <Link to="/inicio" onClick={closeMobileMenu}>
+        <Link to={routes.inicio} onClick={closeMobileMenu}>
           <img className="img" src={MyNotes} alt="Logo MyNotes" />
         </Link>
-        <Link to="/inicio" className="logo-span" onClick={closeMobileMenu}>
+        <Link
+          to={routes.inicio}
+          className="logo-span"
+          onClick={closeMobileMenu}
+        >
           <span>MyNotes</span>
         </Link>
       </div>

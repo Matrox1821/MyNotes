@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { IoChevronDownSharp } from "react-icons/io5";
+import { routes } from "../../../../routers/helpers/routes";
 import { DropdownItem } from "./dropdown-item";
 import "./NabItemDropdown.css";
 export const NavItemDropdown = (props) => {
@@ -41,8 +42,8 @@ export const NavItemDropdown = (props) => {
             : `dropdown${isMenuMobile ? " mobile" : ""}`
         }
       >
-        <DropdownItem link="libros" name="Libros"></DropdownItem>
-        <DropdownItem link="musica" name="Música"></DropdownItem>
+        <DropdownItem link={routes.libros} name="Libros"></DropdownItem>
+        <DropdownItem link={routes.musica} name="Música"></DropdownItem>
       </div>
     </div>
   );

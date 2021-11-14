@@ -3,7 +3,7 @@
   background-color: var(--black);
   border-radius: 12px;
   align-items: center;
-  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.5);
   width: 84%;
   margin: 5%;
   padding: 3%;
@@ -25,4 +25,14 @@
   padding: 0 25%;
   width: 50%;
   height: 100%;
+} /* 
+.card-mini-dates {
+  list-style-type: none;
 }
+.span-card {
+  font-weight: bold;
+}
+.shop-link {
+  color: var(--blue);
+  text-decoration: none;
+} */
