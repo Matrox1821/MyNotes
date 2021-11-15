@@ -1,8 +1,8 @@
 .hero-container {
   background-color: var(--black);
-  height: 80vh;
   width: 90%;
-  margin: 2% 5% 0;
+  margin: 2% 5%;
+  margin-bottom: 10%;
   display: flex;
   border-radius: 2px;
   flex-direction: column;
@@ -27,6 +27,16 @@
 }
 .hero-btns {
   margin-top: 20px;
+}
+.hero-paragraph h1{
+  margin: 8px 0;
+  color: var(--whiteGrey);
+  font-size: 25px;
+}
+h1.title-nosotros{
+  margin: 0 0;
+  color: white;
+  font-size: 40px;
 }
 @media screen and(max-width:500px) {
   .hero-container {
