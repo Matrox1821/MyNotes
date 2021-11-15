@@ -1,0 +1,28 @@
+.book-image {
+  padding: 15%;
+  width: 70%;
+  height: 45%;
+}
+.title {
+  color: var(--whiteGrey);
+}
+.description {
+  color: var(--whiteGrey);
+}
+.content-text-book {
+  height: 100%;
+}
+.span-author {
+  font-weight: bolder;
+  color: var(--whiteGrey);
+}
+.author {
+  color: var(--whiteGrey);
+}
+.list-info-book {
+  color: var(--whiteGrey);
+}
+.link-shop {
+  color: var(--whiteGrey);
+  text-decoration: none;
+}

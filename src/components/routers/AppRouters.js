@@ -23,7 +23,6 @@ export const AppRouters = () => {
           <Route exact path={routes.libros} component={LibrosPage} />
           <Route exact path={routes.libro()} component={LibroPage} />
           <Route exact path={routes.musica} component={MusicaPage} />
-
           <Route exact path={routes.nosotros} component={NosotrosPage} />
           <Route exact path={routes.foro} component={ForoPage} />
           <Route
