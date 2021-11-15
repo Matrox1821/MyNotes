@@ -1,43 +1,79 @@
 .hero-container {
   background-color: var(--black);
+  height: 100%;
   width: 90%;
   margin: 2% 5%;
-  margin-bottom: 10%;
   display: flex;
-  border-radius: 2px;
+  border-radius: 10px;
   flex-direction: column;
   align-items: center;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.15);
   object-fit: contain;
-  position: absolute;
+  position:absolute;
   z-index: -2;
+  padding-bottom: 20px;
 }
+
+hr{
+  margin: 0 0;
+  width: 80%;
+  border-color: var(--lightGrey);
+  border-width: 1px;
+  border-style:solid;
+}
+
 .hero-container > h1 {
   font-size: 30px;
   color: var(--whiteGrey);
   text-align: center;
 }
+
 .hero-paragraph {
   width: 80%;
 }
+
 .hero-paragraph > p {
   margin: 8px;
   color: var(--whiteGrey);
   font-size: 20px;
 }
+
 .hero-btns {
   margin-top: 20px;
 }
+
 .hero-paragraph h1{
   margin: 8px 0;
   color: var(--whiteGrey);
-  font-size: 25px;
+  font-size: 30px;
 }
+
 h1.title-nosotros{
   margin: 0 0;
   color: white;
-  font-size: 40px;
+  font-size: 50px;
 }
+
+.cards img{
+  width: 160px;
+  height: 160px;
+  grid-template-columns: repeat(5, 1fr);
+  display: grid;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.cards h3{
+  font-size: 20px;
+  margin: 10px 0;
+  padding: 10px 0;
+  color: var(--whitePure);
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: bold;
+}
+
 @media screen and(max-width:500px) {
   .hero-container {
     background-color: var(--whitePure);
