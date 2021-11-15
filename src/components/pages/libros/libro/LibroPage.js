@@ -55,7 +55,7 @@ export const LibroPage = () => {
               {books[libroIDReducido].buy_links.map((link) => {
                 const { name, url } = link;
                 return (
-                  <div>
+                  <div key={name}>
                     <a className="link-shop" href={url}>
                       {name}
                     </a>

@@ -1,10 +1,13 @@
 import React, { Fragment } from "react";
 import { Navegacion } from "./navegacion";
+import { Footer } from "./footer";
+import "./Layout.css"
 export const Layout = ({ children }) => {
   return (
     <Fragment>
       <Navegacion />
-      {children}
+      <div className="page-content">{children}</div>
+      <Footer/>
     </Fragment>
   );
 };

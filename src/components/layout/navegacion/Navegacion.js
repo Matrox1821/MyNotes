@@ -11,7 +11,7 @@ export const Navegacion = () => {
       <Navbar>
         <NavItemDropdown name="Directorio"></NavItemDropdown>
         <NavItem link={routes.nosotros} name="Quiénes somos?" />
-        <NavItem link={routes.foro} name="Foro" />
+        {/* <NavItem link={routes.foro} name="Foro" /> */}
       </Navbar>
     </Fragment>
   );

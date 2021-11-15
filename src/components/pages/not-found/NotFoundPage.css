@@ -1,0 +1,19 @@
+.content-error {
+  align-items: center;
+  text-align: center;
+  color: var(--whitePure);
+  font-size: 15px;
+  background-color: var(--black);
+  margin: 3% 5% 0;
+  box-shadow: 0px 0px 14px 7px var(--board, 0.15);
+  padding: 1%;
+}
+.img-error {
+  width: 30%;
+  height: 30%;
+}
+.error {
+  color: var(--blue);
+}
+@media screen and (max-width: 500px) {
+}

@@ -17,12 +17,14 @@
   z-index: -1;
 }
 .dropdown.active {
-  top: 76px;
+  top: 80px;
   opacity: 1;
   transition: all 0.5s ease;
   background-color: var(--darkBlue);
   padding: 1rem 1rem 0;
   overflow: hidden;
+      position: absolute;
+    z-index: 0;
 }
 .desactive {
   display: none;

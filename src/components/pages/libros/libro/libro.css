@@ -1,3 +1,7 @@
+.content-cards{
+    position: relative;
+  z-index: -2;
+}
 .book-image {
   padding: 15%;
   width: 70%;
