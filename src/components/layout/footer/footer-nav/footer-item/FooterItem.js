@@ -5,7 +5,7 @@ export const FooterItem=(props)=>{
     <Fragment>
       <a
           className="image-link"
-          to={`${props.link}`} target="_blank"
+          href={`${props.link}`} target="_blank"
         >
         <img className="image-social" src={props.item} alt={`${props.alter}`}/>
         </a>

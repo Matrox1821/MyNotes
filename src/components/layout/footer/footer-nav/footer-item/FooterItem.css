@@ -1,4 +1,7 @@
-
+.image-link{
+  z-index: 1;
+    position: relative;
+}
 .image-social{
   margin: 10px 0 10px 15px;
   height: 40px;

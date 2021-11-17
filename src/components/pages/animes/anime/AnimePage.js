@@ -2,6 +2,7 @@ import React, { Fragment, useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import "./AnimePage.css";
+import HombreMochila from "./HombreMochila.svg";
 /* const URL =
   "https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key="; */
 export const AnimePage = () => {
@@ -67,7 +68,14 @@ export const AnimePage = () => {
           </div>
         </div>
       ) : (
-        "cargando"
+        <div className="cargando-hm">
+          <img
+            className="hombre-mochila"
+            src={HombreMochila}
+            alt="cargando hombre mochila"
+          ></img>
+          <h2>Transportando sus datos...</h2>
+        </div>
       )}
     </Fragment>
   );
