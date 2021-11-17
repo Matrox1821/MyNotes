@@ -42,8 +42,8 @@ export const NavItemDropdown = (props) => {
             : `dropdown${isMenuMobile ? " mobile" : ""}`
         }
       >
-        <DropdownItem link={routes.libros} name="Libros"></DropdownItem>
-        <DropdownItem link={routes.musica} name="Música"></DropdownItem>
+        <DropdownItem link={routes.mangas} name="Mangas"></DropdownItem>
+        <DropdownItem link={routes.animes} name="Animes"></DropdownItem>
       </div>
     </div>
   );

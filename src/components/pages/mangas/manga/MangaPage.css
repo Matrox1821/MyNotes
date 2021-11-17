@@ -1,0 +1,92 @@
+.content-anime{
+  background-color: var(--black);
+  width: 90%;
+  margin: 2% 5% 0;
+  border-radius: 2px;
+  box-shadow: 0px 0px 10px 5px var(--blue, 0.15);
+  object-fit: contain;
+  position: relative;
+  z-index: -2;
+}
+.cont-anime{
+  display: flex;
+  padding: 2% 2% 0;
+}
+.content-img-manga{
+    padding: 3% 3% 1%;
+} 
+.content-text-manga{
+  padding: 5%;
+  width:50%;
+}
+.span-link {
+  font-weight: bolder;
+}
+.link-page{
+  text-decoration: none;
+}
+.title{
+  margin-bottom:50px;
+}
+.title,.description,.list-info-manga ,.link-shop ,.span-link,.link-page {
+  color: var(--whiteGrey);
+}
+.link-page:hover{
+  transition: all 0.5s ease;
+  text-decoration: none;
+  font-style: bold;
+  color:var(--blue);
+}
+.list-info-manga{
+  padding-bottom: 50px;
+}
+.cont-synopsis{
+      width: 90%;
+    padding: 0 5% 5%;
+}
+.content-text-manga {
+  height: 100%;
+}
+@media screen and (max-width: 730px){
+.cont-anime{
+  display:flex;
+  flex-direction: column;
+    align-items: center;
+  padding: 2% 2% 0;
+}
+.content-img-manga{
+    padding: 3% 3% 1%;
+} 
+.content-text-manga{
+  padding: 5%;
+  width:90%;
+}
+.span-link {
+  font-weight: bolder;
+}
+.link-page{
+  text-decoration: none;
+}
+.title{
+  margin-bottom:50px;
+}
+.title,.description,.list-info-manga ,.link-shop ,.span-link,.link-page {
+  color: var(--whiteGrey);
+}
+.link-page:hover{
+  transition: all 0.5s ease;
+  text-decoration: none;
+  font-style: bold;
+  color:var(--blue);
+}
+.list-info-manga{
+  padding-bottom: 50px;
+}
+.cont-synopsis{
+      width: 90%;
+    padding: 0 5% 5%;
+}
+.content-text-manga {
+  height: 100%;
+}
+}

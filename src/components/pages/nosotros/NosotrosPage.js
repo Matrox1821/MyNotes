@@ -4,7 +4,6 @@ import foto2 from "./img/foto2.png"
 import foto3 from "./img/foto3.png"
 import foto4 from "./img/foto4.png"
 import foto5 from "./img/foto5.png"
-import { Link } from 'react-router-dom';
 import "./NosotrosPage.css"
 export const NosotrosPage = () =>{
   return (

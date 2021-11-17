@@ -1,9 +1,10 @@
 export const routes = {
   home: "/",
   inicio: "/inicio",
-  libros: "/libros",
-  libro: (libroID) => (libroID ? `/libros/${libroID}` : "/libros/:libroID"),
-  musica: "/musica",
+  mangas: "/mangas",
+  manga: (mangaID) => (mangaID ? `/manga/${mangaID}` : "/manga/:mangaID"),
+  animes: "/animes",
+  anime: (animeID) => (animeID ? `/anime/${animeID}` : "/anime/:animeID"),
   nosotros: "/nosotros",
   foro: "/foro",
   iniciarSesion: "/iniciar-sesion",
